@@ -1,11 +1,12 @@
-import './App.css';
+import React, { laze, Suspense } from 'react';
+// import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <div>Chile app</div>
+      <div>Child</div>
     </div>
   );
 }
 
-export default App;
+// export default App;
