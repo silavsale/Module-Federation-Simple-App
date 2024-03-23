@@ -28,7 +28,7 @@ const devConfig = {
       name: 'Child',
       filename: 'remoteEntry.js',
       exposes: {
-        // './Button': './src/Button.js',
+        './Button': './src/Button.js',
         './app': './src/bootstrap',
       },
       shared: packageJson.dependencies,
